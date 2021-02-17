@@ -83,11 +83,23 @@ img {
 /* Seccion pie de pagina */
 .footer {
   background-image: linear-gradient(to bottom, #fa8278, #FFE0D8);
+  display: grid;
+  grid-template-areas: "rrss suscribirse mail" "derechos derechos derechos";
+  grid-template-rows: 80% 20%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  justify-items: center;
   color: #41584B;
   font-size: 16px; }
 
+@media (max-width: 780px) {
+  .footer {
+    grid-template-areas: "rrss         mail" "suscribirse suscribirse" "derechos    derechos";
+    grid-template-rows: 40% 40% 20%;
+    grid-template-columns: 1fr 1fr; } }
+
 footer img {
-  width: 25px; }
+  width: 50px; }
 
 footer a {
   color: #41584B;
@@ -100,25 +112,36 @@ footer a {
   padding: 5px; }
 
 .mail {
+  grid-area: mail;
   display: flex;
   flex-direction: column;
-  align-items: justify; }
+  align-items: justify;
+  padding-top: 10%; }
   .mail p {
     padding-top: 10px;
     font-size: 16px; }
 
 .suscribirse {
+  grid-area: suscribirse;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 16px; }
+  font-size: 10px;
+  padding-top: 10%; }
   .suscribirse h4 {
     margin-bottom: 50px;
     font-size: 16px; }
 
 .rrss {
+  grid-area: rrss;
   text-align: left;
-  font-size: 16px; }
+  font-size: 16px;
+  padding-top: 10%; }
+
+.derechos {
+  grid-area: derechos;
+  align-self: end;
+  font-size: 8px; }
 
 * {
   font-family: 'Bellota Text', cursive;
