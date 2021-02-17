@@ -84,7 +84,8 @@ img {
 .footer {
   background-image: linear-gradient(to bottom, #fa8278, #FFE0D8);
   display: grid;
-  grid-template-areas: "rrss suscribirse mail" "derechos derechos derechos";
+  grid-template-areas: "rrss suscribirse mail"
+ "derechos derechos derechos";
   grid-template-rows: 80% 20%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
@@ -94,7 +95,9 @@ img {
 
 @media (max-width: 780px) {
   .footer {
-    grid-template-areas: "rrss         mail" "suscribirse suscribirse" "derechos    derechos";
+    grid-template-areas: "rrss         mail"
+ "suscribirse suscribirse"
+ "derechos    derechos";
     grid-template-rows: 40% 40% 20%;
     grid-template-columns: 1fr 1fr; } }
 
