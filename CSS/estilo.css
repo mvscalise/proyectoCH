@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Seccion de navegacion y titulo de pagina */
 img {
   width: 200px;
@@ -84,8 +85,7 @@ img {
 .footer {
   background-image: linear-gradient(to bottom, #fa8278, #FFE0D8);
   display: grid;
-  grid-template-areas: "rrss suscribirse mail"
- "derechos derechos derechos";
+  grid-template-areas: "rrss suscribirse mail" "derechos derechos derechos";
   grid-template-rows: 80% 20%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
@@ -95,9 +95,7 @@ img {
 
 @media (max-width: 780px) {
   .footer {
-    grid-template-areas: "rrss         mail"
- "suscribirse suscribirse"
- "derechos    derechos";
+    grid-template-areas: "rrss         mail" "suscribirse suscribirse" "derechos    derechos";
     grid-template-rows: 40% 40% 20%;
     grid-template-columns: 1fr 1fr; } }
 
@@ -175,7 +173,7 @@ h3 {
 .main {
   background-color: #FFF3B2; }
 
-/* Seccion presentacion index */
+/* Sección presentación index */
 .info {
   text-align: center;
   font-weight: bold;
@@ -197,7 +195,7 @@ h3 {
   padding-top: 5%;
   padding-bottom: 5%; }
 
-/* Seccion Sobre nosotros */
+/* Sección Sobre nosotros */
 .nosotros {
   background-image: url(fondo/nosotros.png);
   width: 1fr;
@@ -234,7 +232,7 @@ h3 {
   50% {
     transform: rotate(10deg); } }
 
-/* Seccion recetas */
+/* Sección recetas */
 .recetas-d, .recetas-s {
   color: #41584B;
   list-style: none;
@@ -302,7 +300,7 @@ h3 {
     font-size: 18px;
     padding: 2px; }
 
-/* Detalle tablas / seccion recursos*/
+/* Detalle tablas / sección recursos*/
 .textrecursos h2 {
   font-size: 40px;
   text-align: center;
@@ -330,7 +328,7 @@ tr td {
   text-align: center;
   padding: 5px; }
 
-/* Seccion del formulario de contacto*/
+/* Sección del formulario de contacto*/
 .contacto {
   height: 1fr;
   padding-bottom: 10%;
