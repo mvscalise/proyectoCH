@@ -82,6 +82,7 @@ img {
   padding: 0px 50px 0px 50px; }
 
 /* Seccion pie de pagina */
+<<<<<<< HEAD
 .footer {
   background-color: #fa8278;
   display: grid;
@@ -160,11 +161,41 @@ footer img {
 .mail {
   grid-area: mail;
   align-content: start; }
+=======
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  color: #41584B;
+  font-size: 10px;
+  background-color: #FF9B93; }
+
+.rrss {
+  display: grid;
+  background-color: #FF9B93;
+  grid-template-areas: "face insta mail";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  justify-items: center; }
+  .rrss img {
+    width: 25%; }
+
+.face {
+  grid-area: face; }
+  .face img {
+    justify-items: center; }
+
+.insta {
+  grid-area: insta;
+  justify-items: center; }
+
+.mail {
+  grid-area: mail; }
+>>>>>>> footer
 
 .derechos {
-  grid-area: derechos;
-  align-self: end;
-  font-size: 8px; }
+  background-color: #FF9B93;
+  text-align: center; }
 
 * {
   font-family: 'Bellota Text', cursive;
