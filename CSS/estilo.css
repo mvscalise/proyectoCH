@@ -82,67 +82,39 @@ img {
   padding: 0px 50px 0px 50px; }
 
 /* Seccion pie de pagina */
-.footer {
-  background-image: linear-gradient(to bottom, #fa8278, #FFE0D8);
-  display: grid;
-  grid-template-areas: "rrss suscribirse mail" "derechos derechos derechos";
-  grid-template-rows: 80% 20%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  justify-items: center;
-  color: #41584B;
-  font-size: 16px; }
-
-@media (max-width: 780px) {
-  .footer {
-    grid-template-areas: "rrss         mail" "suscribirse suscribirse" "derechos    derechos";
-    grid-template-rows: 40% 40% 20%;
-    grid-template-columns: 1fr 1fr; } }
-
-footer img {
-  width: 50px; }
-
-footer a {
-  color: #41584B;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: #FFF3B2;
-  border-style: inset;
-  border-color: #FFF3B2;
-  padding: 5px; }
-
-.mail {
-  grid-area: mail;
+footer {
   display: flex;
   flex-direction: column;
-  align-items: justify;
-  padding-top: 10%; }
-  .mail p {
-    padding-top: 10px;
-    font-size: 16px; }
-
-.suscribirse {
-  grid-area: suscribirse;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 20%;
+  color: #41584B;
   font-size: 10px;
-  padding-top: 10%; }
-  .suscribirse h4 {
-    margin-bottom: 50px;
-    font-size: 16px; }
+  background-color: #FF9B93; }
 
 .rrss {
-  grid-area: rrss;
-  text-align: left;
-  font-size: 16px;
-  padding-top: 10%; }
+  display: grid;
+  background-color: #FF9B93;
+  grid-template-areas: "face insta mail";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  justify-items: center; }
+  .rrss img {
+    width: 25%; }
+
+.face {
+  grid-area: face; }
+  .face img {
+    justify-items: center; }
+
+.insta {
+  grid-area: insta;
+  justify-items: center; }
+
+.mail {
+  grid-area: mail; }
 
 .derechos {
-  grid-area: derechos;
-  align-self: end;
-  font-size: 8px; }
+  background-color: #FF9B93;
+  text-align: center; }
 
 * {
   font-family: 'Bellota Text', cursive;
@@ -362,6 +334,3 @@ select, input, textarea {
 
 .tipos {
   background-color: #FFF3B2; }
-
-.boton {
-  color: #41584B; }
