@@ -82,86 +82,6 @@ img {
   padding: 0px 50px 0px 50px; }
 
 /* Seccion pie de pagina */
-<<<<<<< HEAD
-.footer {
-  background-color: #fa8278;
-  display: grid;
-  grid-template-areas: "rrss     suscribirse" "derechos derechos";
-  grid-template-rows: 80% 20%;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  color: #41584B; }
-
-@media (max-width: 780px) {
-  .footer {
-    grid-template-areas: "rrss       " "suscribirse" "derechos   ";
-    grid-template-rows: 50% 40% 10%;
-    grid-template-columns: 1fr; }
-  .suscribirse {
-    grid-template-areas: "boton";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    justify-items: center; }
-    .suscribirse h4 {
-      color: #fa8278; } }
-
-footer img {
-  width: 30px; }
-
-.suscribirse {
-  grid-area: suscribirse;
-  display: grid;
-  grid-template-areas: "titulo" "boton";
-  grid-template-rows: 20% 80%;
-  grid-template-columns: 1fr;
-  justify-items: end;
-  margin-top: 5%;
-  font-size: 8px; }
-
-.suscibirse h4 {
-  grid-area: titulo; }
-
-.boton {
-  grid-area: boton;
-  width: 30%;
-  height: 30%;
-  background-color: #FFF3B2;
-  border-radius: 8px; }
-  .boton a {
-    color: #41584B;
-    font-size: 14px;
-    font-weight: bold; }
-
-.boton a:hover {
-  text-decoration: none;
-  color: #41584B; }
-
-.rrss {
-  grid-area: rrss;
-  display: grid;
-  grid-template-areas: "rrsstit rrsstit" "insta   face" "mail mail";
-  grid-template-rows: 20% 40% 40%;
-  grid-template-columns: 1fr 1fr;
-  justify-items: start;
-  text-align: left;
-  margin-top: 5%;
-  font-size: 8px; }
-
-.rrsstit {
-  grid-area: rrsstit; }
-
-.insta {
-  grid-area: insta;
-  align-content: end; }
-
-.face {
-  grid-area: face;
-  align-content: end; }
-
-.mail {
-  grid-area: mail;
-  align-content: start; }
-=======
 footer {
   display: flex;
   flex-direction: column;
@@ -191,7 +111,6 @@ footer {
 
 .mail {
   grid-area: mail; }
->>>>>>> footer
 
 .derechos {
   background-color: #FF9B93;
