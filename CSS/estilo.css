@@ -110,14 +110,22 @@ footer {
     justify-items: start;
     padding-left: 10%; } }
 
+.face, .insta, .mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+  .face img, .insta img, .mail img {
+    width: 25%;
+    padding: 5%; }
+  .face p, .insta p, .mail p {
+    padding-top: 5%; }
+
 .face {
   grid-area: face; }
-  .face img {
-    justify-items: center; }
 
 .insta {
-  grid-area: insta;
-  justify-items: center; }
+  grid-area: insta; }
 
 .mail {
   grid-area: mail; }
