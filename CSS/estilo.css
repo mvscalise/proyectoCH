@@ -88,6 +88,28 @@ img {
   line-height: 1.5;
   padding: 0px 50px 0px 50px; }
 
+.aviso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #FFF3B2; }
+
+.txtaviso {
+  margin: 30px;
+  width: 100%;
+  padding-top: 5%;
+  margin-left: 5%; }
+  .txtaviso h4 {
+    color: #fa8278;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 1%; }
+
+.imgaviso {
+  padding-bottom: 5%; }
+
 /* Seccion pie de pagina */
 footer {
   display: flex;
@@ -111,9 +133,7 @@ footer {
   .rrss {
     display: grid;
     background-color: #FF9B93;
-    grid-template-areas: "face"
- "insta"
- " mail";
+    grid-template-areas: "face" "insta" " mail";
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr;
     justify-items: start;
