@@ -1,5 +1,7 @@
 <h1 align="center">Hola 👋, te presento mi proyecto Fast & Easy</h1>
 <h3 align="center">Mi nombre es María Scalise y este es mi primer proyecto de desarrollo web</h3>
+<p align="justify"> Para este proyecto tenemos un sitio web sobre recetas, estte esta diseñado al estilo de un blog donde se presentan algunas opciones de recetas en un espacio amigable y con un enfoque para todo público.</p>
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
