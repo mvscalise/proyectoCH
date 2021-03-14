@@ -49,8 +49,33 @@ img {
 .mainrecetas {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
   background-color: #FFF3B2; }
+
+.volver {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 2%; }
+
+.regresar {
+  justify-content: left;
+  width: 200px;
+  margin-left: 5%;
+  background-color: #fccca9;
+  border-radius: 8px;
+  border-color: #fccca9; }
+  .regresar a {
+    color: #41584B;
+    font-weight: bold;
+    text-decoration: none; }
+
+.regresar a:hover {
+  text-decoration: none;
+  color: #FF9A00; }
 
 .imgreceta {
   align-content: center; }
@@ -62,7 +87,7 @@ img {
 
 .imgreceta h2 {
   text-align: center;
-  margin: 30px 50px 20px 0px; }
+  margin: 5px 50px 20px 0px; }
 
 .ingrecetas {
   align-content: center;
